@@ -133,7 +133,7 @@ if (isset($_SESSION["user"])) {
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url("./images/smarthome.jpg");
+            background-image: url("./images/smarthome.jpg"); 
             background-repeat:repeat-y;
             background-size: contain;
             z-index: 0;
@@ -446,8 +446,8 @@ if (isset($_SESSION["user"])) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js" integrity="sha512-Dz4zO7p6MrF+VcOD6PUbA08hK1rv0hDv/wGuxSUjImaUYxRyK2gLC6eQWVqyDN9IM1X/kUA8zkykJS/gEVOd3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
             <?php
-    $channelID = '2193091';
-    $apiKey = 'OQ3V0W1KGK3RBO3C';
+    $channelID = '2193365';
+    $apiKey = 'P8ILG2F6U9VJBWL5';
 
     $url = "https://api.thingspeak.com/channels/{$channelID}/feeds.json";
 
