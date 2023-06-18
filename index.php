@@ -447,7 +447,7 @@ if (isset($_SESSION["user"])) {
     <script>
             <?php
     $channelID = '2193365';
-    $apiKey = 'P8ILG2F6U9VJBWL5';
+    $apiKey = 'FFUY7TWKF4GYWJZ4';
 
     $url = "https://api.thingspeak.com/channels/{$channelID}/feeds.json";
 
